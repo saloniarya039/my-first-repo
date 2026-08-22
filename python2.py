@@ -44,7 +44,7 @@ print(a) """
 a = bool(a)
 print(type(a))
 print(a*102)"""
-#
+
 # str1 = "hello" 
 #str2 = "world"
 #str3 = """this
@@ -74,8 +74,52 @@ y[0] = 30 """
 print(a)
 for x in a:
     print(x) """
-Range(7)
+""" Range(7)
 Range(2.10) 
 Range(2,10,3) 
 Range(10,2, -2) 
-Range(10,2)  
+Range(10,2)
+print(range(7))  """ 
+
+
+""" a = 89 #any number is True except 0 or none
+a = "Amit"  #string us True except empty string
+print(bool(a)+3)
+a = 5
+print("123"+str(a))
+print(a+int("123")) """
+
+
+""" a = 10
+n = float(a)
+print(n)
+print(type(n)) """
+
+
+""" a = 10 
+b = 20 
+c = (a if a<b else b)+20
+print(c) """
+
+
+""" age1 = 24 
+age2 = 16
+eligibility1 = "eligible" if age1 >= 18 else "not eligible"
+eligibility2 = "eligible" if age2 >= 18 else "not eligible"
+print(f"Age 1: {age1}, Eligibility: {eligibility1}")
+print(f"Age 2: {age2}, Eligibility: {eligibility2}")
+
+ """
+
+a = 10
+b = 20
+c = -5 
+d = (a if a<c else c)  if a<b else (b if b<c else c)
+print(d)
+
+
+a = 10
+b = 20
+c = -5 
+d = (a if a>c else c)  if a>b else (b if b>c else c)
+print(d)
