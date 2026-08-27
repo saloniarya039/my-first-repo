@@ -1,4 +1,4 @@
- print("Hello world")
+"""  print("Hello world")
 age = 10
 print(age)
 print(type(age))
@@ -43,8 +43,9 @@ print(a)
 a = 5
 a = bool(a)
 print(type(a))
-print(a*102)
 
+
+print(a*102)
  str1 = "hello" 
 str2 = "world"
 str3 = this
@@ -121,3 +122,138 @@ b = 20
 c = -5 
 d = (a if a>c else c)  if a>b else (b if b>c else c)
 print(d)   
+ """
+
+
+"""for and"""
+
+""" a = 10 
+b = 3
+c = a+b    # +,-,*,/,%,**,//
+print(c) """
+
+
+
+""" c = (12 and 5) + 9
+print(c) """
+
+
+
+"""for or"""
+
+""" c = (-34 or 5)+9
+print(c)
+
+
+c = ("abcd" or "1234")+ "rest"
+print(c)
+
+c = ("" or "1234")+ "rest"
+print(c)
+
+
+c = ("" or 12)+ 12
+print(c)
+
+c = (5 or 7)+ 3
+print(c) """
+
+
+""" a = 10 
+b = 20 
+c = (a<b)+23*(34 and 0)- (5 or 4)
+print(c) """
+
+"""assignment operators in python"""
+"""operator - "=" """
+""" a = 5
+b = 6
+x = a+b
+print(x) """
+
+
+""" a = 10
+print(a)
+print(-a)
+ """
+
+""" text = "Welcome to python programming"
+print("Welcome" in text)
+print("welcome" in text)
+print("nireekshan" in text)
+print("Hari" not in text)
+ """
+
+
+""" a = 15
+b = 15
+print(id(a))
+print(id(b)) """
+
+""" a = 25
+b = 25
+print(a is b)
+print(id(a))
+print(id(b))
+
+
+a = 30
+b = 25
+print(a is b)
+print(id(a))
+print(id(b))
+ """
+
+
+""" not in ; is not """
+
+""" input("Enter the name")
+print("You entered name as:","saloni")
+
+
+a = (input("Enter Num1"))
+b = (input("Enter Num2"))
+c = a+b
+print(c)
+
+
+a = int(input("Enter Num1"))
+b = int(input("Enter Num2"))
+c = a+b
+print(c)
+
+
+a = float(input("Enter Num1"))
+b = float(input("Enter Num2"))
+c = a+b
+print(c) """
+
+
+""" a = int(input("principal amount"))
+b = int(input("rate"))
+c = int(input("time"))
+d = (a*b*c)/100
+print(d)
+
+
+a = float(input("principal amount"))
+b = float(input("rate"))
+c = float(input("time"))
+d = (a*b*c)/100
+print(d) """
+
+
+
+""" a = eval(input("Enter any value"))
+b = eval(input("Enter any value"))
+print(a)
+print(type(a))  """
+
+
+""" from sys import argv 
+
+a = eval(argv[1])
+b = eval(argv[2])
+c = a+b
+print(c) """
+
