@@ -257,3 +257,150 @@ b = eval(argv[2])
 c = a+b
 print(c) """
 
+
+#print("hi")
+
+
+""" print("hi")
+
+from sys import argv 
+num1 = eval(argv[1])
+num2 = eval(argv[2])
+num3 = eval(argv[3])
+c = num1+ num2 + num3 
+print(c)
+
+print(argv[1])
+print(argv[2])
+print(argv[3]) """
+
+""" from sys import argv
+
+
+print("The length of values:", len(argv))
+ """
+
+
+""" str1 = "Rajeev's Dairy"
+str2 = 'Rajeev said  "I am a good boy" '
+print(str1)
+print(str2) """
+
+
+
+""" c = "" + 34-4
+print(c)      #it is a error """
+
+#c = bool("") +34-4
+#print(c)
+
+#c = bool("ihkh") + 34-4
+#print(c)     # the output well be 30 
+
+""" 
+str1 = "python"
+print(str1[0])
+print(str1[len(str1)-1])
+print(str1[-1])
+print(str1[-len(str1)])  
+
+for x in range(len(str1)): 
+    print(str1[x])
+
+for x in range(-len(str1), 0):
+    print(str1[x])
+
+for s in str1:
+    print(s) 
+
+for x in range(-len(str1), 0, 1):
+    print(str1[x])
+ """
+
+
+
+""" str1 = "Python in GLA CL2"
+print(str1)
+print(str1[ : :])
+print(str1[2:6:2]) 
+print(str1[10:13:])
+print(str1[10:12:2])
+print(str1[13:9:-1])
+print(str1[-50:90:]) """
+
+
+""" name = "Balayya"
+print(name)
+print(name[0])
+name[0] = "X"   #str' object does not support item assignment """
+
+
+
+""" a = "Python"
+b = "Programming"
+print(a+b)
+
+
+a = "Python"
+b = 4 
+print(a+b)
+
+
+a = "Python" 
+b = 3
+print(a*b) 
+
+
+a = "Python"
+b = 3.5
+print(a*b)
+
+
+print("Python" + "in GLA CL2")
+print("Python"*3)
+print("Python"*3.5)  # can't multiply sequence by non-int of type 'float' """
+
+
+
+""" print('P' in "Python")
+print('z' in "python")
+print('on' in "python")
+print('pa' in  "python")
+
+print('b' not in "apple") """
+
+
+""" s1 = "abcd" 
+s2 = "abcdefg"
+print(s1==s2)
+if(s1==s2):
+    print("Both are same")
+else:
+    print("not same")
+
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+print(s1==s2)
+if(s1==s2):
+    print("Both are same")
+else:
+    print("not same")
+ """
+
+""" s1 = input("Enter first string:")
+s2 = input("Enter second string:")
+output = "Same" if s1 == s2 else "Not Same"
+print(output)
+ """
+
+
+
+""" s1 = "Amit Singh"
+print(len(s1.rstrip().lstrip())) #it will remove the space from both side of the string and then it will count the length of the string 
+
+s1 = "Amit Singh"
+print(len(s1.strip())) #it will remove the space from right side of the string and then it will count the length of the string
+ """
+
+
