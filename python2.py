@@ -404,3 +404,56 @@ print(len(s1.strip())) #it will remove the space from right side of the string a
  """
 
 
+""" s1 = "python is a programming language. Python is easy to learn. Python is used in many applications."
+print(s1)
+print(s1.count("Python"))  #it will count the number of times "Python" is present in the string s1
+print(s1.find("Python"))   #it will return the index of the first occurrence of "Python" in the string s1
+print(s1.index("Python"))  #it will return the index of the first occurrence of "Python" in the string s1
+print(s1.find("zython",35))
+print(s1.index("zython",35))
+
+output = "Yes" if s1.find("Python")!= -1 else "NO"
+print("output")
+output = "Yes" if "Python" in s1 else "NO"
+print("output") """
+
+
+""" s1 = "Java programming language"
+s2 = s1.replace("Java","Python")
+print(s1)
+print(s2) """
+
+""" s1 = "python is a programming language. Python is easy to learn. Python is used in many applications."
+print(id(s1)) 
+s2=s1.count("Python")
+print(id(s2))
+print(s2)
+for i in s1:  
+    print(i,s1.count(i) if s1.count(i)>2 else None) """
+
+
+
+""" s1 = "Raesh, Suresh, Fazal, Kumar"
+s2=s1.split()  #default delimiter is " "
+print(s1, type(s1))
+print(s1, (type(s2)))
+for item in s2:
+    #print(item)
+    print(item,s1.count(item)) """
+
+
+
+""" dob = input("Enter your date of birth in dd-mm-yyyy format: ")
+year1 = dob.split("-")[2]
+year2 = dob.split("-")[1]
+year3 = dob.split("-")[0]
+print(year1)
+print(year2)
+print(year3) """
+
+
+""" l1 = ["22", "11", "2002"]
+s1 = "/".join(l1)
+print(s1)
+print(type(s1)) """
+
